@@ -10,7 +10,7 @@ var controller = Botkit.slackbot({
 });
 
 var bot = controller.spawn({
-    token: 'xoxb-208918658098-GDElqKpL3eDzFcMN4npXG1Aa'
+    token: ''
 }).startRTM();
 
 var OPEN_WHETER = 'http://api.openweathermap.org/data/2.5/weather?APPID=338cddbec27596cee5bf2495bf40cad0&q=';
